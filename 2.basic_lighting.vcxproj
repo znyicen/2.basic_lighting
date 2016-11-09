@@ -19,11 +19,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="textures_combined.cpp" />
+    <ClCompile Include="basic_lighting_specular.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="texture.frag" />
-    <None Include="texture.vert" />
+    <None Include="lamp.frag" />
+    <None Include="lamp.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="basic_lighting.vert" />
+    <Text Include="basic_lighting.frag" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{7afac84c-c2a7-4617-af88-e23ab437cf7b}</ProjectGuid>

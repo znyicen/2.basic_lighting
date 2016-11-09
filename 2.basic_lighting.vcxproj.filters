@@ -15,15 +15,23 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="texture.vert">
+    <None Include="lamp.vert">
       <Filter>源文件</Filter>
     </None>
-    <None Include="texture.frag">
+    <None Include="lamp.frag">
       <Filter>源文件</Filter>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="textures_combined.cpp">
+    <Text Include="basic_lighting.vert">
+      <Filter>源文件</Filter>
+    </Text>
+    <Text Include="basic_lighting.frag">
+      <Filter>源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="basic_lighting_specular.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
